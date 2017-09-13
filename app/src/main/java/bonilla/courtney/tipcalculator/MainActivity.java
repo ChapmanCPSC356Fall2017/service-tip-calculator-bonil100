@@ -42,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button1) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = 0.10;
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                     String totalAmt = formatter.format(tip_cal);
-                    total.setText("Result : $" + totalAmt);
+                    total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button2) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = (0.10);
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                     String totalAmt = formatter.format(tip_cal);
-                    total.setText("Result : $" + totalAmt);
+                    total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
@@ -76,11 +76,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button3) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = (0.10);
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                 String totalAmt = formatter.format(tip_cal);
-                total.setText("Result : $" + totalAmt);
+                total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
@@ -94,11 +94,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button4) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = (0.13);
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                     String totalAmt = formatter.format(tip_cal);
-                    total.setText("Result : $" + totalAmt);
+                    total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
@@ -111,11 +111,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button5) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = (0.13);
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                     String totalAmt = formatter.format(tip_cal);
-                    total.setText("Result : $" + totalAmt);
+                    total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
@@ -130,11 +130,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button6) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = (0.15);
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                     String totalAmt = formatter.format(tip_cal);
-                    total.setText("Result : $" + totalAmt);
+                    total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
@@ -147,11 +147,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button7) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = (0.15);
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                     String totalAmt = formatter.format(tip_cal);
-                    total.setText("Result : $" + totalAmt);
+                    total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
@@ -166,11 +166,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button8) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = (0.2);
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                     String totalAmt = formatter.format(tip_cal);
-                    total.setText("Result : $" + totalAmt);
+                    total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
@@ -183,11 +183,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button9) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = (0.20);
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                     String totalAmt = formatter.format(tip_cal);
-                    total.setText("Result : $" + totalAmt);
+                    total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
@@ -202,11 +202,11 @@ public class MainActivity extends AppCompatActivity {
                 if (view.getId() == R.id.button10) {
                     double amount = Double.parseDouble(bill.getText().toString());
                     double tip_per = (0.25);
-                    tip.setText("Tip Percentage: " + Double.toString(tip_per));
+                    tip.setText("Tip Percentage: " + Double.toString(tip_per * 100) + " %");
                     double tip_cal = (amount * tip_per) + amount;
 
                     String totalAmt = formatter.format(tip_cal);
-                    total.setText("Result : $" + totalAmt);
+                    total.setText("Total Bill : $" + totalAmt);
                 }
             }
         });
