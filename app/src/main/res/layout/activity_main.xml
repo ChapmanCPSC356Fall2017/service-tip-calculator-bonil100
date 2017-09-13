@@ -7,7 +7,7 @@
     tools:context="bonilla.courtney.tipcalculator.MainActivity">
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/bill"
         android:inputType="numberDecimal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -132,7 +132,7 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/label"
         android:layout_width="358dp"
         android:layout_height="42dp"
         android:ems="10"
@@ -151,6 +151,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tip Amount:"
+        android:inputType="numberDecimal"
         android:textSize="20sp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintBottom_creator="1"
@@ -163,10 +164,11 @@
         android:layout_marginLeft="16dp" />
 
     <TextView
-        android:id="@+id/Total"
+        android:id="@+id/total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Total:"
+        android:inputType="numberDecimal"
         android:textSize="25sp"
         tools:layout_constraintBottom_creator="1"
         android:layout_marginStart="16dp"
